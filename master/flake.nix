@@ -11,6 +11,7 @@
   inputs.src-nimpb_protoc-master.ref   = "refs/heads/master";
   inputs.src-nimpb_protoc-master.owner = "oswjk";
   inputs.src-nimpb_protoc-master.repo  = "nimpb_protoc";
+  inputs.src-nimpb_protoc-master.dir   = "";
   inputs.src-nimpb_protoc-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
